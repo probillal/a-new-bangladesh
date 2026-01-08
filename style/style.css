@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.fira-sans {
+  font-family: "Fira Sans", sans-serif;
+}
+nav {
+  max-width: 1280px;
+  display: flex;
+  margin: 24px auto;
+  justify-content: space-between;
+}
+
+nav h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+
+nav .btn {
+  padding: 15px 30px;
+  border: 1px solid #006a50;
+  border-radius: 8px;
+  color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: white;
+}
+.banner {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.banner-container {
+  max-width: 622px;
+  padding: 117px 0 117px 60px;
+}
+.banner-container h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #827575;
+  margin-bottom: 16px;
+}
+.banner-container h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 16px;
+}
+.btn {
+  padding: 17px 34px;
+  background-color: #006a50;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+}
+.piller-bd-container {
+  max-width: 1280px;
+  margin: 80px auto;
+}
+.piller-bd-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  max-width: 302px;
+  /* border: 1px solid gray; */
+  padding: 24px;
+  box-shadow: 0px 4px 4px 0px #d5d6d8;
+  border-radius: 8px;
+}
+.card img {
+  margin-bottom: 20px;
+}
+.card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #827575;
+}
